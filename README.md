@@ -27,6 +27,8 @@ It might not be the most efficient one, though ParallelStreams have been used fo
 Because of the most simple filtering applied, output quality is definitely low. It was also part of task requirements - I had no time to do any more extensive research just on sinogram filtering.  
 What I decided was that I would rather spend my time practising Maven, Spring-Boot and learning React - instead of making simple local programm I decided to go for an actual web app.
 #### Side Notes
+React is configured to localhost:80, so standard HTTP port.
+
 A side note for DICOM file generator: because of a wide variety od DICOM standards, and low accesibility to actual documents on new versions of it, as well as inconsistency between information across common sources, most modern DICOM readers won't support files generated here.
 
 UI is in Polish Langage - because this has no real application other than as my teaching, I hadn't bothered translating it once it was done in Polish.
