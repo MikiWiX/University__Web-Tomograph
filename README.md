@@ -9,13 +9,13 @@ To run the back-end, you need to have installed Java SE, JRE (I have been using 
 and an IDE of your choice (created using Intelij IDEA Community, in case that matter).  
 You also need to have Maven set-up with Spring-Boot depencies downloaded.  
 You run this just as any other Spring-Boot app from basic tutorials, setup maven run configuration with this coommand line:  
-'''
+```
 spring-boot:run -f pom.xml
-'''
+```
 or this one if you need to debug (this will prevend runner from forking, and so debugger from disconnecting)  
-'''
+```
 spring-boot:run -Dspring-boot.run.fork=false -f pom.xml
-'''
+```
 #### Description
 The task was to make a programm (in any common language) that simulates a primitive medical tomograph on discrete data.
 
