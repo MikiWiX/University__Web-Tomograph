@@ -30,5 +30,5 @@ A side note for DICOM file generator: because of a wide variety od DICOM standar
 
 UI is in Polish Langage - because this has no real application other than as my teaching, I hadn't bothered translating it once it was done in Polish.
 
-Here is a tiny sample of how it looks like:
+Here is a sample of how it looks like:
 ![Sample Screenshot](https://github.com/MikiWiX/University__Web-Tomograph/blob/main/Sample.png)
