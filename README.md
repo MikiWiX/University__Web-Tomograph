@@ -1,4 +1,4 @@
-# University__Web-Tomograph
+# Web Tomograph
 ### University task
 ###### Java, Maven, Spring-Boot, JS, React, CSS
 #### Running
