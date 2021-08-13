@@ -1,5 +1,5 @@
 # University__Web-Tomograph
-### An University task
+### University task
 ###### Java, Maven, Spring-Boot, JS, React, CSS
 #### Running
 In order to run React, open console, go to "/src/react/mymed" and type in:  
