@@ -1,0 +1,58 @@
+/* variables responsible for overall page layout. Used in multiple locations below */
+
+html {
+    --header-font-size: 20px;
+}
+
+.Navbar {
+    font-family: Verdana;
+    position: static;
+    width: 100%;
+    background-color: #222; /* almost Black */
+    color: #818181;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    font-size: var(--header-font-size);
+}
+.Navbar * {
+    display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    color: black;
+    position: static;
+    background-color: #ddd;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+main {
+    font-family: Verdana;
+    display: block;
+    position: static;
+    width: 100%;
+}
+
+.loadingPane {
+    font-family: Verdana;
+    display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    font-size: 100px;
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+}
+.none {
+    display: none;
+}

@@ -1,0 +1,85 @@
+.tableParent {
+}
+
+#editable {
+    border-collapse: separate;
+    border-image-source: linear-gradient(white, #333);
+    border-style: solid;
+    border-width: 3px;
+    border-image-slice: 1;
+    display: inline-block;
+}
+#editable th{
+    border-bottom: #bbb solid 1px;
+}
+#editable td, #editable th {
+    padding: 10px;
+}
+
+#controls {
+    border-collapse: separate;
+    border: 3px solid transparent;
+    display: inline-block;
+}
+
+img.icon {
+    height: 1.4em;
+    width: 1.4em;
+    padding: 0.4em;
+    top: 0px;
+    left: 0px;
+    transition-property: width, height, top, left, padding;
+    transition-duration: 0.2s;
+}
+img.icon:hover {
+    height: 2.2em;
+    width: 2.2em;
+    top: 0.4em;
+    left: 0.4em;
+    padding: 0;
+}
+
+img.rmIcon {
+    height: 1.4em;
+    width: 1.4em;
+    padding: 0.4em;
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    transition-property: width, height, top, left, padding, transform;
+    transition-duration: 0.2s;
+}
+img.rmIcon:hover {
+    height: 2.2em;
+    width: 2.2em;
+    top: 0.4em;
+    left: 0.4em;
+    transform: rotate(90deg);
+}
+.empty {
+    height: calc(1em + 20px);
+}
+
+#newRow {
+    margin: auto;
+    width: 100px;
+}
+.addRow {
+    height: 50px;
+    width: 50px;
+    opacity: 0.5;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.addRow:hover{
+    opacity: 1;
+}
+
+textarea[placeholder=lorem] {
+    width: 150px;
+    height: 1em;
+}
+.noDisplay {
+    display: none;
+}

@@ -1,0 +1,60 @@
+.taskMain {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.inputFormDiv {
+
+}
+.dicomFormDiv {
+
+}
+.inputFormDiv>form>label {
+    margin: 10px;
+}
+.inputFormDiv>form>input{
+    margin: 10px;
+}
+
+#inputImageDiv {
+
+}
+
+#processImageDiv {
+
+}
+
+#outputImageDiv {
+
+}
+
+#inputImage,#processImage,#outputImage,#sliderImage{
+    object-fit: contain;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#imageSlideShowDiv {
+
+}
+#imageSlideShowDiv>#slider {
+    width: 100%;
+}
+.sizedImage {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: Verdana;
+}
+.sizedImage>img{
+    width: 100%;
+    height: 100%;
+}
+.quality{
+    font-size: 30px;
+}
