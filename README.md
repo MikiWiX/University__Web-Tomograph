@@ -2,7 +2,10 @@
 ### An University task
 ###### Java, Maven, Spring-Boot, JS, React, CSS
 #### Running
-In order to run React, open console, go to "/src/react/mymed" and type in "npm start".  
+In order to run React, open console, go to "/src/react/mymed" and type in:  
+```
+npm start
+```
 You will need to have npm installed on your PC.
 
 To run the back-end, you need to have installed Java SE, JRE (I have been using Java 13, but it should go on slightly older versions as well),
