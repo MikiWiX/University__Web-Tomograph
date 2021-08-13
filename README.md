@@ -19,6 +19,7 @@ or this one if you need to debug (this will prevend runner from forking, and so 
 ```
 spring-boot:run -Dspring-boot.run.fork=false -f pom.xml
 ```
+You will also need to download additional libraries like DICOM Library for Java "dcm4che" in both version 2 and 3 (I got lost durning development due to lack of accessible information, and wanted to save time to focus on more important things)
 #### Description
 The task was to make a programm (in any common language) that simulates a primitive medical tomograph on discrete data.
 
